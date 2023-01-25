@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(248, 242, 156);
+}
+
+.hidden{
+    display: none;
+}
+
+#navBar{
+    margin: 0px auto 50px auto;
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+p{
+    text-align: justify;
+    margin: 0px;
+}
+
+#title{
+    text-align: justify;
+    margin-top: 5px;
+}
+
+#navname{
+    margin-block-start: 10px;
+    margin: 0px 45% 0px 0px;
+}
+
+#heading{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+
+#flex{
+    display: flex;
+}
+
+
+#container {
+    background: #000;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: auto;
+}
+
+.infoContainer {
+    background: #000;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto auto auto;
+    display: flex;
+}
+
+
+button {
+    margin: 0.5em;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 80px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+#newsImage{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin-right: 20px;
+border: none;
+outline: none;
+}
+
+
+@media screen and (max-width: 900px) {
+    #navBar{
+        margin: 0px 0px 50px 0px;
+        background-color: black;
+        color: whitesmoke;
+        padding: 20px 0px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .infoContainer {
+        background: #000;
+        color: white;
+        padding: 0.5em;
+        border-radius: 20px;
+        width: 100%;
+        max-width: 300px;
+        margin: 50px auto auto auto;
+        display: block;
+    }
+
+    #container {
+        background: #000;
+        color: white;
+        padding: 0.5em;
+        border-radius: 20px;
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+    }
+    #newsImage{
+        height: 150px;
+        width: 300px;
+        border-radius: 20px;
+        margin-right: 20px;
+    border: none;
+    outline: none;
+    }
+}

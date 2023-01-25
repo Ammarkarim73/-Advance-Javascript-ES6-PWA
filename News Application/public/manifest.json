@@ -1,0 +1,22 @@
+{
+    "name": "JANG NEWS",
+    "short_name": "JANG",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#F8F29C",
+    "theme_color": "#F8F29C",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "./logo.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+      },
+      {
+        "src": "./logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
