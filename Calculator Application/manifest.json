@@ -1,0 +1,21 @@
+{
+    "name": "Calculator",
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "background_color": "#FDCDC1",
+    "theme_color": "#FDCDC1",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "./Calculator-icon.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "maskable"
+      },
+      {
+        "src": "./Calculator-icon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
