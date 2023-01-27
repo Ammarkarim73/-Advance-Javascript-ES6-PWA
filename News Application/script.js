@@ -10,7 +10,7 @@ if ("serviceWorker" in navigator) {
 
 
 
-var apiKey = "d705a4e24c874973b252d111a5a905a7";
+var apiKey = "Your API KEY";
 
 var image;
 var title;
